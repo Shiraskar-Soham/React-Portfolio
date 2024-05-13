@@ -52,15 +52,6 @@ font-size:calc(0.8em + 0.3vw);
 const Footer = styled.footer`
 display: flex;
 justify-content: space-between;
-`
-
-const Link = styled.a`
-background-color: ${props =>props.theme.body};
-color: ${props =>props.theme.text};
-text-decoration: none;
-padding:0.5rem calc(2rem + 2vw);
-border-radius: 0 0 0 50px;
-font-size:calc(1em + 0.5vw);
 
 ${Box}:hover &{
     background-color: ${props =>props.theme.text};
@@ -96,7 +87,7 @@ const Item = {
 
 const Card = (props) => {
 
-    const {id, name, description, tags, demo, github} = props.data;
+    const {id, name, description, tags, github} = props.data;
 
     return (
         <Box key={id} variants={Item}>
@@ -112,9 +103,6 @@ const Card = (props) => {
                 }
             </Tags>
             <Footer>
-                <Link href={demo} target="_blank">
-                    Visit
-                </Link>
                 <Git  href={github}  target="_blank">
                     <Github width={30} height={30} />
                 </Git>

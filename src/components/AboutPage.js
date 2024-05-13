@@ -72,11 +72,14 @@ const AboutPage = () => {
             <img src={astronaut} alt="spaceman" />
         </Spaceman>    
         <Main>
-        I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
-<br /> <br/>
-I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
-<br/> <br/>
-I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
+            I am Soham Vijay Shiraskar, pursuing B.E. (Hons) in Mechanical Engineering from Birla Institute
+            of Technology and Science, K K Birla Goa Campus, currently in my 8th semester .
+        <br /> <br/>
+            My expertise spans over Full Stack Development and various frameworks, including SpringBoot,
+            JavaScript, HTML, CSS. In addition to this, I harness the power of REST API calls from the UI to
+            seamlessly integrate our Backend and Frontend Development Projects. I also have learnt Mysql,
+            Tableau for DBMS, I can leverage Hibernate for efficient object-relational mapping, optimizing
+            database interactions and system performance. Have made CRUD API Projects for the same.
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />
